@@ -27,7 +27,6 @@ all:
 Discovery uses set of Python and Ansible scripts to build a cp-ansible compatible inventory file. Once we have the inventory file, we can use it for any cluster operation normally using cp-ansible.
 
 ```shell
-cd <some_path>/ansible_collections/confluent/platform
 PYTHONPATH=. python discovery/main.py --input discovery/hosts.yml [optional arguments] 
 ```
 #### Sample input file (hosts.yml)
